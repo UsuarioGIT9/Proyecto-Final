@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">    
+    <meta name="author" content="Matias j Davila">
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta name="description" content="este es mi portafolio personal..">
+    <meta name="keywords" content="Desarrollo, proyectos, ux, ui, figma, diseños, apoyo, programacion, html, css ">
+    <link rel="icon" type="image/x-icon" href="./icon/icon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/pp.css">
+    <title>Primer F.P.P</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="../img/LOGO 2.png">
+        </div>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#skills">Proyectos</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+        <button>Contactame</button>
+        <!-- me ayude en la we para lograr este efecto -->
+        <button id="menuButton" onclick="openMenu()">
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+
+    <div class="main" id="main">
+        <div class="left">
+            <h5>Hola, soy Matias</h5>
+            <h3>Este es mi primer <span>portfolio</span> de manera libre</h3>
+            <p>
+                Soy un entusiasta del desarrollo web con un enfoque meticuloso en la creación de experiencias digitales excepcionales. Aquí hay un vistazo más profundo a lo que hago:
+            </p>
+        </div>
+        <div class="right">
+            <img src="../img/iron.png">
+        </div>
+    </div>
+
+    <!-- MIS HABILIDADES -->
+
+    <div class="skills" id="skills">
+        <h5>Mis habilidades</h5>
+        <h3>Experiencia en:</h3>
+        <div class="skill-items">
+            <div class="item">
+                <div class="icon"><i class='bx bx-directions'></i></div>
+                <h4>Direccion y Estrategia</h4>
+                <p>
+                    Una profunda participacion y acmpañamiento del cliente hara a un mejor proyecto
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-bookmark-heart'></i></div>
+                <h4>Marcas y Logos</h4>
+                <p>
+                    Trabajamos con los editores mas conocidos para llevar adelante tus ideas
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bxl-figma'></i></i></div>
+                <h4>UI & UX Design</h4>
+                <p>
+                    Creo en la importancia de la colaboración y la iteración continua para alcanzar los mejores resultados.
+                </p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-code-alt'></i></i></div>
+                <h4>Coding</h4>
+                <p>
+                    Implementé un diseño totalmente responsive utilizando Bootstrap, garantizando una experiencia uniforme en todos los dispositivos.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="portfolio" id="portfolio">
+        <div class="header">
+            <div class="info">
+                <h5>Proyectos recientes</h5>
+                <h3>My Portfolio</h3>
+            </div>
+        </div>
+
+        <div class="portfo-items">
+            <div class="item">
+                <img src="../img/Proy. 1.svg">
+                <div class="info">
+                    <h4>Rediseño de App</h4>
+                    <p>
+                        Rediseño e implementacion de funcionalidades para Spotify
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../img/Proy. 2.svg">
+                <div class="info">
+                    <h4>Creando un E-Commerce</h4>
+                    <p>
+                        Se diseño un E-Commerce totalmente desde cero teniendo en cuenta la usabilidad
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../img/Proy. 3.svg">
+                <div class="info">
+                    <h4>Rediseño de App</h4>
+                    <p>
+                        Se creo un rediño para una de las plataformas mas conocidas de videojuegos
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="feedback" id="feedback">
+        <h5>Reseñas de Clientes</h5>
+        <h3>Clientes</h3>
+        <div class="customers">
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "demostró una sorprendente rapidez para comprender y aplicar conceptos. <br>su experiencia con Bootstrap y SASS podría mejorar para lograr una implementación más eficiente."
+                </p>
+                <div class="user">
+                    <img src="../img/casperin.png">
+                    <div class="info">
+                        <h5>Ramiro</h5>
+                        <p>GH-Company</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Su dedicación para mejorar la experiencia del usuario a través de un diseño cuidadoso de UI/UX se reflejó en los comentarios positivos que recibimos de nuestros usuarios."
+                </p>
+                <div class="user">
+                    <img src="../img/iron.png">
+                    <div class="info">
+                        <h5>Tony</h5>
+                        <p>Stark SEO</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Matías muestra iniciativa. Su comprensión de las tecnologías es sólida, pero ser más proactivo en la identificación de soluciones sería beneficioso."
+                </p>
+                <div class="user">
+                    <img src="../img/wason.png">
+                    <div class="info">
+                        <h5>Arthur</h5>
+                        <p>Comodin Ink</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer d-flex flex-column align-items-center justify-content-center"> 
+        <img class="footer-logo" src="../img/LOGO 2.png" alt="Logo del portfolio">
+        <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+          <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope"></i>
+          </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Matias Davila &#169;</div>
+      </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
