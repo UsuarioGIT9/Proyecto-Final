@@ -339,7 +339,7 @@ footer {
   justify-content: center;
   padding: 2px;
   margin: 10px;
-  border: 2px solid white;
+  border: 2px solid #bf5129;
   border-radius: 50%;
   transition: all 0.2s ease-in;
 }
@@ -352,11 +352,11 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: #bf5129;
-  border: 2px solid #DEDEEB;
+  border: 2px solid #fff;
 }
 
 .iconos-redes-sociales a:hover i {
-  color: #343a40;
+  color: #fff;
 }
 
 .derechos-de-autor {
@@ -366,5 +366,109 @@ footer {
 }
 
 
+.footer #footer-btn {
+  padding: 0.75rem 1.5rem;
+  font-weight: 300;
+  background-color: #bf5129;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+  color: #fff;
+}
 
-/* HACER RESPONSIVE */
+.footer #footer-btn:hover {
+  background-color: #fff;
+  color: #bf5129;
+}
+
+
+
+
+/* RESPONSIVE */
+
+
+
+@media (max-width: 768px) {
+  nav .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  header .header-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .container .container-features,
+  .container .pricing {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container .pricing .card {
+    margin: 20px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .container .container-features,
+  .container .pricing {
+    grid-template-columns: 1fr;
+  }
+
+  .container .pricing .card {
+    margin: 10px;
+  }
+}
+
+
+
+@media (max-width: 350px) {
+  nav .nav-links {
+    gap: 0.5rem;
+  }
+
+  header .header-container {
+    padding: 3rem 1rem;
+  }
+
+  .container .container-features,
+  .container .pricing {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .container .container-features .container-card,
+  .container .pricing .card {
+    margin: 10px;
+    padding: 1rem;
+  }
+
+  .container .container-features .container-card span {
+    font-size: 1.5rem;
+  }
+
+  .container .pricing .card {
+    padding: 2rem 1rem;
+  }
+
+  .footer-texto {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+
+  .iconos-redes-sociales a {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+    border-width: 2px;
+  }
+
+  .derechos-de-autor {
+    padding: 10px;
+    font-size: 12px;
+  }
+}

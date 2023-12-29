@@ -532,37 +532,88 @@ footer {
 /* RESPONSIVE*/
 
 
- @media screen and (max-width: 400px) {
-    .overlay p {
-      font-size: 18px;
+  @media screen and (max-width: 576px) {
+    .navbar-collapse a {
+      font-size: 1rem;
     }
   
-    .overlay i {
-      font-size: 40px;
+    .navbar-toggler {
+      margin: 1rem 0;
+    }
+  
+    .navbar-toggler-icon {
+      font-size: 1.2rem;
+    }
+  
+    .icon__nav {
+      font-size: 1.5rem;
+    }
+  
+    
+    .bienvenida {
+      min-height: 300px;
+    }
+  
+    .contenido {
+      padding: 1rem;
+    }
+  
+    .contenido h1 {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+  
+    
+    .proyectos__recientes img {
+      height: auto;
     }
   }
-  
+
   @media screen and (max-width: 767px) {
     .navbar-brand {
       display: none;
     }
   }
   
-  @media screen and (max-width: 800px) {
-    .testimonio-imagen {
-      height: 120px;
-      width: 120px;
+  
+  @media screen and (min-width: 577px) {
+    
+    .navbar {
+      padding: 1rem;
     }
   
-    .testimonio-texto {
-      font-size: 18px;
+    .navbar-collapse a {
+      font-size: 1.2rem;
     }
-  }
   
-  @media screen and (min-width: 700px) {
-    .hero-inferior-imagen {
-      max-width: 600px;
+    .navbar-toggler {
+      margin: 0.5rem 0;
+    }
+  
+    .navbar-toggler-icon {
+      font-size: 1.5rem;
+    }
+  
+    .icon__nav {
+      font-size: 1.8rem;
+    }
+  
+    
+    .bienvenida {
+      min-height: 450px;
+    }
+  
+    .contenido {
+      padding: 2rem 5rem;
+    }
+  
+    .contenido h1 {
+      font-size: 3rem;
+      line-height: 4rem;
+    }
+  
+    
+    .proyectos__recientes img {
+      height: 100%;
     }
   }
-
-
